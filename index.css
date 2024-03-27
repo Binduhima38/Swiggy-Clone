@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border: 1px solid black;   
+}
+.nav-items{
+    display: flex;
+    list-style-type: none;
+    padding-right: 50px;
+    font-size: 20px;
+}
+.nav-items > li{    
+    margin: 10px;
+    padding: 10px;
+}
+.logo{
+    padding: 10px 0px 0px 10px;
+    height:100px;
+    width: 150px;
+}
+.resimg{
+    height:30%;
+    width: 100%;
+}
+.res_card{
+    height:320px;
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;  
+}
+.res_card:hover{
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.body{
+    margin: 5px;
+    border: 1px solid black;
+}
+.shimmer-container{
+    background-color: #f0f0f0;
+    margin:5px;
+}
+.shimmer-button{
+    height:25px;
+    width: 130px;
+    background-color: rgb(200, 198, 198);   
+}
+.shimmer-card{
+    height:320px;
+    width: 150px;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #e3e1e1;
+}
+.shimmer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card-details1{
+    height:100px;
+    width: 130px;
+    background-color: rgb(211, 208, 208);
+    margin:10px;
+}
+.shimmer-card-details2{
+    height:60px;
+    width: 110px;
+    background-color: rgb(211, 208, 208);
+    margin:10px;
+}
+.shimmer-card-details3{
+    height:60px;
+    width: 110px;
+    background-color: rgb(211, 208, 208);
+    margin:10px;
+}
+.shimmer-card-details4{
+    height:20px;
+    width: 80px;
+    background-color: rgb(211, 208, 208);
+    margin:10px;
+}
+.logbutton{
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+.rating{
+    margin: 5px;
+}
+.search{
+    margin: 5px;
+}*/
+
