@@ -13,13 +13,13 @@ const Body = () => {
     }, []);
     const fetchData = async () => {
         const response = await fetch(
-            "https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.3856088&lng=78.4863827&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+            "https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.99740&lng=79.00110&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
         );
         console.log(response);
         const json = await response.json();
         console.log(json);
-        setrestaurantList(json.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants || []);
-        setfilteredRestaurant(json.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants || []);
+        setrestaurantList(json.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants || []);
+        setfilteredRestaurant(json.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants || []);
     };
 
     return restaurantList.length === 0 ? <Shimmer /> : (
@@ -49,7 +49,7 @@ const Body = () => {
                     Top rated Restraunt
                 </button>
             </div>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap gap-10">
                 {filteredRestaurant.map((restaurant) => (
                     <Link
                         key={restaurant?.info.id}

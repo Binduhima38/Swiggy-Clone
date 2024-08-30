@@ -9,8 +9,8 @@ const ResCard = (props) => {
         cuisines,
       } = resData;
     return (       
-            <div className="w-40 h-80 m-1 p-1 border bg-gray-100 hover:bg-gray-200">
-                <img className="w-40 h-40" src={RESIMG_URL + cloudinaryImageId} alt="Indian food" />
+            <div className="w-56 m-1 p-1 border bg-gray-100 hover:bg-gray-200">
+                <img className="w-56 h-40" src={RESIMG_URL + cloudinaryImageId} alt="Indian food" />
                 <h4 className="font-bold break-words">{name}</h4>
                 <p className="break-words">{cuisines.join(", ")}</p>
                 <p>{avgRating} stars</p>
